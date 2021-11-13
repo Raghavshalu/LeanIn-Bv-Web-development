@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background: url('http://techobahrain.com/design/coronavirus/site/img/masterslider/slider-3.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    color: white;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+}
+nav .logo{
+    margin: 8%;
+    align-items: center;
+    font-weight: 700;
+}
+nav .menu{
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .menu a{
+     margin-right: 30px;
+     text-decoration: none;
+     color: white;
+}
+nav .menu a:first-child{
+color: red;
+}
+nav .menu a:hover{
+    color: red;
+}
+#info{
+     width: 700px; 
+    color: white;
+    padding-left: 80px;
+    padding-top: 100px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+header h2{
+    font-weight: 500px;
+    padding-bottom: 10px;
+    animation: example 0.8s;
+}
+@keyframes example {
+        0%{
+        transform:translateX(-250px);
+        }
+        100%{
+        transform:translateX(0);
+}
+ }
+header h1{
+    word-spacing: 5px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 2px rgb(20, 18, 18);
+    text-transform: uppercase;
+    animation: heading 0.6s 0.8s;
+}
+@keyframes heading {
+        0%{
+        transform:translateX(250px);
+        }
+        100%{
+        transform:translateX(0);
+}
+ }
+header p{
+    animation: paragraph 1s 1.8s;
+}
+@keyframes paragraph {
+        0%{
+        transform:translateY(30px);
+        }
+        100%{
+        transform:translateY(0);
+}
+ }
+.button{
+    margin-top: 20px;
+    background-color: rgba(255, 0, 0, 0.438);
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    animation: 1s 2.8s;
+    animation-name: example ;
+}
+@keyframes example {
+        0%{
+        zoom: 1.5;
+        }
+        100%{
+        transform:translate(0,0);
+}
+ }
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    margin-left: 110px;
+}
+.snizzing{
+    display: flex;
+    padding-top: 10px
+}
+.corona{
+    display: flex;
+    padding-top: 50px;
+}
+.spread{
+    background-color: rgba(128, 128, 128, 0.185);
+    margin-left: 30px;
+}
+.image{
+    height: 300px;
+    padding: 10px 60px;
+}
+.symptoms{
+    display: flex;
+    width: 100%;
+    padding: 10%;
+    height: 100vh;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLSAG72yk4enfdeWIwMv82I8emfUHAmHmjQ&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.symptoms img{
+    padding-top: 2px;
+    width: 400px;
+    height: 390px;
+}
+.sym{
+    margin: 5px;
+    padding: 10px 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+.button1{
+    margin-top: 10px;
+    background-color: red;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+
+}
+.button1 a{
+    text-decoration: none;
+    color: white;
+}
+iframe{
+     margin-left: 110px;
+}
+#prevention{
+    display: flex;
+    width: 100%;
+    padding: 10%;
+    height: 100vh;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLSAG72yk4enfdeWIwMv82I8emfUHAmHmjQ&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.doctor_safe{
+        padding-top: 2px;
+        width: 370px;
+        height: 390px;
+}
+.about{
+    display: flex;
+}
+.rule{
+    margin-left: 10px;
+}
+.details{
+    width: 100%;
+    height: 100vh;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgj4LD18E2YBfcb14CkCDt6K76xNfIijvP-g&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.specilist{
+    display: flex;
+    margin-left: 110px;
+}
+.button2{
+    margin-left: 90px;
+    background-color: red;
+    border: none;
+    padding: 2px 15px 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight:100;
+    font-size: medium;
+}
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1019815090/thumb/10.jpg?ip=x480);
+    color: white;
+}
+.outbreak{
+    margin-left: 110px;
+}
+#form{
+    background-color: black;
+    display: flex;
+    padding-top: 30px;
+}
+.icons{
+    margin-left: 110px;
+    color: white;
+    width: 500px;
+    padding-right: 20px;
+}
+form{
+color: white;
+}
